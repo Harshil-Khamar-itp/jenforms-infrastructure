@@ -1,0 +1,5 @@
+vpcCidr = "192.167.0.0/20"
+bucketName = "jenforms-hk"
+indexFile = "index.html"
+errorFile = "error.html"
+originId = "jenforms-hk"
