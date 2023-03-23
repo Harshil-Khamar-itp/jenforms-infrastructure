@@ -12,6 +12,7 @@ module "dns" {
     type    = "A"
     alias = {
         name = module.cf.cloudfront_distribution_domain_name
+        zone_id = module.cf.cloudfront_distribution_hosted_zone_id
     }
   }]
 }
